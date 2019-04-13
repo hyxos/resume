@@ -38,7 +38,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     display: grid;
-    grid-template-columns: 217px 217px 217px 217px;
+    grid-template-columns: 217px 217px 200px 234px;
     grid-template-rows: auto;
     grid-column-gap: 10px;
     grid-template-areas: 
@@ -70,7 +70,7 @@ h4 {
 }
 h5 {
     margin: 0;
-    padding-top: 4px;
+    padding: 3px;
     font-size: 18px;
 }
 p {
@@ -89,7 +89,6 @@ li {
     font-size: 12px;
     font-weight: 600;
 }
-
 i {
     margin: auto;
     width: 10px;
@@ -108,4 +107,39 @@ hr {
 p {
     font-size: 14px;
     margin: 0 0 10px;
+}
+.role {
+    color: #e3622f;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #2d567c;
+}
+a:visited {
+    color: #27357e
+}
+a:hover {
+    color: #e3622f; 
+}
+a:active {
+    color: #ffc65a;
+}
+
+.school {
+    font-size: 18px;
+    font-weight: 400;
+}
+.years {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+.degree {
+    color: #b86b24;
+    font-size: 14px;
+    padding: 3px 0 3px;
 }
