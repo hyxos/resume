@@ -32,11 +32,11 @@ body {
 }
 .item-d {
     position: absolute;
-    top: 1159px;
+    top: 1156px;
     width: 898px;
     text-align: center;
     margin: auto;   
-    height: 30px;
+    height: 33px;
     grid-area: footer;
     background-image: linear-gradient(to right, #ffc65a, #ffeb7a );
 }
