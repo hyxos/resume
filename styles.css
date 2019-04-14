@@ -32,7 +32,7 @@ body {
 }
 .item-d {
     position: absolute;
-    top: 1158;
+    top: 1159px;
     width: 898px;
     text-align: center;
     margin: auto;   
@@ -45,9 +45,9 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     display: grid;
-    grid-template-columns: 217px 217px 200px 234px;
+    grid-template-columns: 217px 217px 188px 234px;
     grid-template-rows: auto;
-    grid-column-gap: 10px;
+    grid-column-gap: 14px;
     grid-template-areas: 
         "header header header header"
         "main main main sidebar"
