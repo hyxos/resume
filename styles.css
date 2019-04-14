@@ -31,7 +31,14 @@ body {
     padding: 20px;
 }
 .item-d {
+    position: absolute;
+    top: 1158;
+    width: 898px;
+    text-align: center;
+    margin: auto;   
+    height: 30px;
     grid-area: footer;
+    background-image: linear-gradient(to right, #ffc65a, #ffeb7a );
 }
 
 .container {
@@ -77,16 +84,13 @@ p {
     font-size: 11px;
 }
 ul {
-    padding: 10px 0px 10px;
-    list-style: none;   
-}
-li {
-    padding: 1px;
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
+    font-size: 13px;
 }
 .contact {
-    padding-top: 20px;
     margin: 0;
-    font-size: 12px;
     font-weight: 600;
 }
 i {
@@ -142,4 +146,11 @@ a:active {
     color: #b86b24;
     font-size: 14px;
     padding: 3px 0 3px;
+}
+.subskill {
+    font-weight: 600;
+}
+.ftr {
+    font-size: 13px;
+    margin: 10px;
 }
