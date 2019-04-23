@@ -17,7 +17,7 @@ body {
     margin: auto;
     width: 100%;
     height: 100px;
-    background-image: linear-gradient(to right, #ffc65a, #ffeb7a ) ;
+    background-image: linear-gradient(to right, #006c92, #b7ccda ) ;
   }
 .item-b {
     grid-area: main;
@@ -26,10 +26,10 @@ body {
     padding: 20px;
 }
 .item-c {
-    background: #f2f2ee;
+    background: #c9c9c9;
     grid-area: sidebar;
     padding: 20px;
-    margin-top: 1px;
+    margin-top: 0px;
 }
 .item-d {
     position: absolute;
@@ -39,7 +39,7 @@ body {
     margin: auto;   
     height: 33px;
     grid-area: footer;
-    background-image: linear-gradient(to right, #ffc65a, #ffeb7a );
+    background-image: linear-gradient(to right, #006c92, #b7ccda );
 }
 
 .container {
@@ -79,7 +79,8 @@ h4 {
 h5 {
     margin: 0;
     padding: 3px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 350;
 }
 p {
     font-size: 11px;
@@ -101,7 +102,7 @@ i {
 }
 hr {
     border: 1px solid #c8c8b8;
-    margin: 0 0 10px;
+    margin: 0 0 6px;
 }
 .sb {
     font-family: Oswald, sans-serif;    
@@ -114,7 +115,7 @@ p {
     margin: 0 0 10px;
 }
 .role {
-    color: #e3622f;
+    color: #163647;
 }
 
 a {
@@ -134,17 +135,17 @@ a:active {
 }
 
 .school {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 600;
 }
 .years {
     margin: auto;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     text-align: right;
 }
 .degree {
-    color: #b86b24;
+    color: #163647;
     font-size: 14px;
     padding: 3px 0 3px;
 }
