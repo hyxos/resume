@@ -29,6 +29,7 @@ body {
     background: #f2f2ee;
     grid-area: sidebar;
     padding: 20px;
+    margin-top: 1px;
 }
 .item-d {
     position: absolute;
