@@ -24,11 +24,11 @@ body {
   grid-area: main;
   font-size: 12px;
   margin-top: none;
-  padding: 20px;
+  padding: 20px 20px 10px;
 }
 
 .item-c {
-  background: #c9c9c9;
+  background-image: linear-gradient(to right, #c9c9c9, #fbfbfb);
   grid-area: sidebar;
   padding: 20px;
   margin-top: 0px;
@@ -93,7 +93,7 @@ p {
 }
 
 ul {
-  padding: 5px 0;
+  padding: 4px 0;
   margin: 0;
   list-style: none;
   font-size: 13px;
@@ -111,7 +111,8 @@ i {
 }
 
 hr {
-  border: 1px solid #c8c8b8;
+  background-color: #a1a1a1;
+  height: 1px;
   margin: 0 0 6px;
 }
 
