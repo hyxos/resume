@@ -12,6 +12,7 @@ body {
 }
 
 .item-a {
+  border-bottom: 2px solid #c0c0c0;
   grid-area: header;
   text-align: center;
   margin: auto;
@@ -36,13 +37,14 @@ body {
 
 .item-d {
   position: absolute;
-  top: 1156px;
+  top: 1155px;
   width: 898px;
   text-align: center;
   margin: auto;
   height: 33px;
   grid-area: footer;
   background-image: linear-gradient(to right, #006c92, #b7ccda);
+  border-top: 1px solid #c0c0c0;
 }
 
 .container {
@@ -112,6 +114,7 @@ i {
 
 hr {
   background-color: #a1a1a1;
+  color: #a1a1a1;
   height: 1px;
   margin: 0 0 6px;
 }
